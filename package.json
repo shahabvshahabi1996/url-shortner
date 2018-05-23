@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/shahabvshahabi1996/url-shortner/issues"
   },
-  "homepage": "https://github.com/shahabvshahabi1996/url-shortner#readme"
+  "homepage": "https://github.com/shahabvshahabi1996/url-shortner#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.2",
+    "nodemon": "^1.17.5"
+  }
 }
