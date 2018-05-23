@@ -1,0 +1,23 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "This is a url shortner built with nodejs and mongodb with valdating a url feature",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahabvshahabi1996/url-shortner.git"
+  },
+  "keywords": [
+    "url-shortner"
+  ],
+  "author": "Alireza Shahabi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shahabvshahabi1996/url-shortner/issues"
+  },
+  "homepage": "https://github.com/shahabvshahabi1996/url-shortner#readme"
+}
