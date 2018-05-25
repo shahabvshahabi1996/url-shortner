@@ -5,14 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>USE.it</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="../styles/index.css" />
-    <script src="../scripts/main.jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Welcome to USE.it</h1>
-    <form>
-        <input type="text" name="url" id="url">
-        <button type="submit">Short it!</button>
-    </form>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Use.it
+                <span style="float: left;"><a class="nav-link" href="#" style="color: #252525">Github</a></span>
+            </a>
+        </div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+        </li>
+    </nav>
+    <br><br>
+    <br><br>
+    <div class="container">
+        <dir class="row">    
+            <div class="col-md-12">
+                <div class="result" style="display: none;">
+                    <h3>
+                        <span class="text-shadow link-place" style="text-decoration: underline;text-decoration-style: dotted">Your Link</span>
+                        <span>
+                            <button style="font-size: 14px;padding: 10px;width: 15vh" class="button shadow-lg bg-white" href="">Copy</button>
+                        </span>
+                    </h3>
+                </div>
+                <div class="loader" style="display: none"></div>
+                <h1 class="header">Use your links <span class="text-shadow" style="text-decoration: underline;text-decoration-style: dotted">shorter</span>.</h1>
+                <br><br>
+                <div class="form">
+                    <input class="form-use form-control shadow-lg bg-white" type="text" name="url" id="url">
+                    <button class="form-button-use shadow-lg bg-white" id="submit" type="submit">Short it!</button>
+                    <br>              
+                </div>
+                <small>hello world!</small>      
+            </div>
+        </dir>
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../scripts/main.jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </html>

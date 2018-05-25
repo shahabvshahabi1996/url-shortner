@@ -1,0 +1,202 @@
+body {
+    text-align: center;
+    overflow-y: hidden;
+    background-color: #fff;
+    height: 100vh;
+    background-color: #21D4FD;
+    background-image: -webkit-linear-gradient(180deg, #21D4FD 0%, #B721FF 100%);
+    background-image: -moz-linear-gradient(180deg, #21D4FD 0%, #B721FF 100%);
+    background-image: -o-linear-gradient(180deg, #21D4FD 0%, #B721FF 100%);
+    background-image: linear-gradient(180deg, #21D4FD 0%, #B721FF 100%);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    margin-top: 20px;
+    margin: 0 auto ;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.form-use {
+    width: 85%;
+    margin: 5px;
+    border-radius: 25px;
+    border-color : transparent;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.navbar-brand {
+    color: #252525;font-weight: bold;font-size: 40px;
+    text-shadow: 7px 5px 10px  rgba(0,0,0,.175);
+}
+
+.navbar-brand:hover{
+    color: #252525;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.text-shadow {
+    text-shadow: 7px 5px 10px  rgba(0,0,0,.175);
+}
+
+.form-button-use {
+    width: 15%;
+    margin: 5px;
+    border:none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #08AEEA;
+    background-image: -webkit-linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    background-image: -moz-linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    background-image: -o-linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    color: #fff;
+}
+
+.button {
+    margin: 5px;
+    border:none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #08AEEA;
+    background-image: -webkit-linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    background-image: -moz-linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    background-image: -o-linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+    color: #fff;
+}
+
+small {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+    display: none;
+    text-decoration: underline;
+    font-size: 16px;
+    color: rgb(223, 71, 66);
+}
+
+.form-button-use:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-qr {
+    margin: 5px;
+    border:none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #8EC5FC;
+    background-image: -webkit-linear-gradient(270deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -moz-linear-gradient(270deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: -o-linear-gradient(270deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-image: linear-gradient(270deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: #fff;
+}
+
+.button-qr:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #252525;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.nav-link{
+    font-weight: bold;
+    color: #252525;
+    font-size:20px;
+}
+
+@media screen and (max-width: 769px) {
+    .form-button-use {
+        width: 20vh;
+        padding: 2px;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .form-use {
+        width: 70vh;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    
+    .form {
+        display: block;
+    }
+
+    small {
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .form-button-use {
+        width: 25vh;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .form-use {
+        width: 98%;
+        margin: 0;
+    }
+    
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+}
+
+.loader {
+    border: 2.5px solid #eee; /* Light grey */
+    border-top: 2.5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 5vh;
+    height: 5vh;
+    margin: 0 auto;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
