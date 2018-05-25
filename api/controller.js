@@ -18,7 +18,6 @@ exports.notFound = (req,res) => {
 
 exports.hasEndPoint = (req , res , next) => {
     urlExists(req.body.link,(err , exists)=>{
-        console.log(exists,err);
         if(exists) {
             next();
             return ;
@@ -33,7 +32,6 @@ exports.hasEndPoint = (req , res , next) => {
 }  
 
 exports.redirect = async (req,res) => {
-    console.log(req.params);
     const url = await Url.findOne({hash : req.params.hash})
     if(url) {
         res.redirect(301,url.url);
@@ -70,7 +68,6 @@ exports.makeHash = (req,res,next) => {
 
 exports.isUrlSavedBefore = async (req,res,next) => {
     const url = await Url.findOne({hash : req.body.hash});
-    console.log('this is saved url' , url);
     if(url) {
         res.json({
             status : 200,
