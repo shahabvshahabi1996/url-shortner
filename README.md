@@ -1,5 +1,5 @@
 # Use.it (url-shortner)
-This is a url shortner built with `nodejs (express)` and `mongodb` and <3
+This is a url shortner built with `nodejs (express)` and `mongodb` and :love:
 
 ## Features
 - [x] validating a url :smirk:
@@ -29,13 +29,13 @@ This is a url shortner built with `nodejs (express)` and `mongodb` and <3
 ## how to use it ? :confused:
 
 #### Server
-> for running url-shortner server after installing `node_module` via command `npm install` simply run `npm run server`
+> for running url-shortner server after installing `node_module` via command `npm install` simply run `npm run server` and then go to the http://localhost:8081/
 #### Test
-> for running test methods after installing `node_module` via command `npm install` simply run `mocha`
+> for running test methods after installing `node_module` via command `npm install` simply run `mocha` and you can see the test result right in your console!
 
 ## Demo :smile: :sunglasses: :stuck_out_tongue:
 for Working With Demo You Can Click On Link Below and **do not forget** to give me :star2: :star2: :star2: :star2:  
-[Check Out Demo! :smile:](http://github.com)
+[Check Out Demo! :smile:](https://node-url-shortner.herokuapp.com/)
 
 
 
