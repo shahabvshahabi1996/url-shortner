@@ -21,12 +21,14 @@
   },
   "homepage": "https://github.com/shahabvshahabi1996/url-shortner#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "colors": "^1.3.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "md5": "^2.2.1",
     "mongoose": "^5.1.2",
+    "nock": "^9.2.6",
     "nodemon": "^1.17.5",
     "url-exists": "^1.0.3",
     "valid-url": "^1.0.9"
