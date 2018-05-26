@@ -1,5 +1,5 @@
 # Use.it (url-shortner)
-This is a url shortner built with `nodejs (express)` and `mongodb` and :love:
+This is a url shortner built with `nodejs (express)` and `mongodb` and :heart:
 
 ## Features
 - [x] validating a url :smirk:
@@ -24,6 +24,9 @@ This is a url shortner built with `nodejs (express)` and `mongodb` and :love:
 ------- 404.css
 ------- index.css
 --- test
+----- index.test.js
+--- server.js
+--- package.json
 ``` 
 
 ## how to use it ? :confused:
