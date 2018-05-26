@@ -5,5 +5,5 @@ mongoose.connect('mongodb://admin:admin@ds235180.mlab.com:35180/url-shortner-db-
 mongoose.connection.once('open',()=>{
     console.log(colors.green.bold('We Are Connected To MongoDB DBMS..!'));
 }).on('error',()=>{
-    console.warn('something went wrong on db!');
+    console.log(colors.red.bold('something went wrong on db!'));
 });
