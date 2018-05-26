@@ -4,8 +4,9 @@
   "description": "This is a url shortner built with nodejs and mongodb with valdating a url feature",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "nodemon server && mocha",
+    "server": "nodemon server.js",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
