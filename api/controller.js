@@ -44,6 +44,7 @@ exports.redirect = async (req,res) => {
 }
 
 exports.validUrl = (req,res,next) => {
+    console.log(req);
     if(req.body) {
         if(isUrl.isUri(req.body.link)){
             next();
